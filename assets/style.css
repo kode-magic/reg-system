@@ -1,0 +1,258 @@
+body {
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  background-color: #f7fafc;
+  color: #141414;
+}
+.bg-login {
+  background: url("/bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.border-main {
+  border-color: #474747;
+}
+
+.bg-menu {
+  background-color: #252525;
+}
+
+.text-main {
+  color: #e2e8f0;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
+.el-dialog__body {
+  padding: 0;
+}
+
+.el-dialog__footer {
+  padding: 0;
+}
+
+.bg-sec-one {
+  background-color: #ffe9e2;
+}
+
+.el-form-item {
+  margin-bottom: 10px;
+}
+
+.el-date-editor.el-input,
+.el-date-editor.el-input__inner {
+  width: 100%;
+}
+
+.el-input-number {
+  width: 100%;
+}
+
+.el-drawer__body {
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.el-form--label-top .el-form-item__label {
+  padding: 0px;
+}
+
+.el-table th .cell {
+  font-size: 14px;
+  color: #2e2e2e;
+  font-weight: 500;
+}
+
+.el-table {
+  color: #2e2e2e;
+}
+
+.el-table th .cell {
+  font-size: 13px;
+}
+
+.el-table .cell {
+  word-break: normal;
+  white-space: nowrap;
+}
+
+.el-table__row {
+  cursor: pointer;
+}
+
+.el-table td,
+.el-table th {
+  padding: 7px 0;
+}
+
+.el-select {
+  display: block;
+}
+
+.el-dialog__body {
+  padding: 0;
+}
+
+.el-dialog__footer {
+  padding: 0;
+}
+
+.complete .el-input__inner {
+  height: 50px;
+  line-height: 50px;
+}
+
+.phone > .el-input--suffix .el-input__inner {
+  padding-left: 4px;
+  padding-right: 3px;
+}
+
+.phone > .el-input__suffix {
+  right: 2px;
+}
+
+.text-alt {
+  color: #fa6838;
+}
+
+.search-nav {
+  padding-left: 14rem;
+}
+
+.display {
+  padding-left: 4.05rem;
+  transition: padding 0.5ms;
+}
+
+.display.sub {
+  padding-left: 14.05rem;
+}
+
+.link-title {
+  overflow: hidden;
+  height: 61px;
+  line-height: 60px;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+  padding: 5px;
+  width: 38px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.title {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.link-text {
+  display: none;
+}
+
+.link-text-md {
+  display: inline;
+}
+
+.py-main {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.el-table .cell {
+  word-break: normal;
+  white-space: nowrap;
+}
+
+button:active {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.bg-gradient {
+  background-image: linear-gradient(to right, #0099e8, #0063cf);
+}
+
+.bg-alt-gradient {
+  background-image: linear-gradient(to right, #ebb222, #e0a91c);
+}
+
+.w-main {
+  width: 14rem;
+  white-space: nowrap;
+  transition-duration: 500ms;
+  transition-property: width;
+}
+
+.menu {
+  display: block;
+  transition-delay: 500ms;
+  transition-duration: 500ms;
+}
+
+.menu.hide {
+  display: none;
+}
+
+.w-main.hide {
+  width: 3.5rem;
+}
+
+.pl-main {
+  padding-left: 14rem;
+  transition-duration: 500ms;
+  transition-property: width;
+}
+
+.pl-main.hide {
+  padding-left: 3.5rem;
+}
+
+.bg-sec {
+  background-color: #0458ba;
+}
+
+.bg-alt {
+  background-color: #dceefb;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

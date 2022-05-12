@@ -1,0 +1,27 @@
+{
+  "name": "lion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/tailwindcss": "^3.4.2",
+    "apollo-client": "^2.6.10",
+    "apollo-link-context": "^1.0.20",
+    "cookieparser": "^0.1.0",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.13.2",
+    "graphql-tag": "^2.11.0",
+    "js-cookie": "^2.2.1",
+    "jwt-decode": "^3.1.2",
+    "nuxt": "^2.14.6",
+    "vuelidate": "^0.7.6"
+  },
+  "devDependencies": {}
+}
